@@ -2,6 +2,8 @@
  *  Consumes <Twist> messages
  *  Transforms them into speed instructions for motors
  *  
+ *  After programming the arduino: 
+ *  $ rosrun rosserial_python serial_node.py /dev/ttyAMA0
  *  
 */
 #include <ros.h>
