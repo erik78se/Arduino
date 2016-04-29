@@ -19,7 +19,7 @@
 #define RIGHT_PIN_B  11
 
 //WHEEL DISTANCE
-#define WHEEL_DIST 10.0 //cm
+#define WHEEL_DIST 0.1 //cm
 
 ros::NodeHandle nh;
 
@@ -39,9 +39,13 @@ void diff_drive(double cmd_x, double cmd_th) {
    *  For now, just print to console.
    */
   char log_msg[20];
+
+  
   sprintf(log_msg, "L: %d", (int)(speed_wish_right*255));
   nh.loginfo(log_msg);
   sprintf(log_msg, "R: %d", (int)(speed_wish_left*255));
+  
+  
   nh.loginfo(log_msg); 
 }
 
