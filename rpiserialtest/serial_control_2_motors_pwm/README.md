@@ -1,4 +1,8 @@
-Create a package "robojoy" with dependencies
+# Setup
+* ROS version: jade
+* rosserial_python
+
+# Create a package "robojoy" with dependencies
 catkin_create_pkg robojoy std_msgs rospy roscpp joy teleop_twist_joy
 
 cd catkin_ws/
@@ -18,4 +22,3 @@ rostopic echo /cmd_vel
 
 # On the arduino serial connected node
 rosrun rosserial_python serial_node.py /dev/ttyAMA0
-
