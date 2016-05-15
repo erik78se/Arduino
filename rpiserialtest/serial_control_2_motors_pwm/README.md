@@ -3,7 +3,7 @@
 * rosserial_python
 
 # Create a package "robojoy" with dependencies
-catkin_create_pkg robojoy std_msgs rospy roscpp joy teleop_twist_joy
+catkin_create_pkg robojoy std_msgs rospy roscpp joy teleop_twist_joy rosserial_python
 
 cd catkin_ws/
 source ./devel/setup.sh
