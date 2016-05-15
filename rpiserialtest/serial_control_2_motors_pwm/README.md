@@ -22,3 +22,5 @@ rostopic echo /cmd_vel
 
 # On the arduino serial connected node
 rosrun rosserial_python serial_node.py /dev/ttyAMA0
+
+# Alternative, use the launchfile
