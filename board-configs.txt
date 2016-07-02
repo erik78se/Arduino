@@ -1,0 +1,21 @@
+Arduino mini pro
+
+
+The Thing Sparkfun
+==================
+1. Download board definition from the external source
+
+Board: Sparkfun The Thing ESP8266
+Programmer: AVRISP mkII
+CPU freq: 80MHz
+Baudrate: 115200
+
+Hints: 
+* Stable power source critical.
+* FTDI works.
+
+
+Arduino Mini Pro
+===================
+Make sure you dont have RX/TX pin connected while programming or it wont work.
+
