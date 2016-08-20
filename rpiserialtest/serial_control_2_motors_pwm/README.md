@@ -2,6 +2,10 @@
 * ROS version: jade
 * rosserial_python
 
+# Enable programming the Arduino-mini-pro from Serial
+# Arduino(DRT) -> GPI17(Rpi2)
+apt-get install arduino-mk
+
 # Create a package "robojoy" with dependencies
 catkin_create_pkg robojoy std_msgs rospy roscpp joy teleop_twist_joy rosserial_python
 
